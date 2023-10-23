@@ -1,6 +1,8 @@
 //https://leetcode-cn.com/problems/reverse-string/
 //344. 反转字符串
 //常规解法：双指针
+
+```C
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -16,4 +18,4 @@ public:
         }
     }
 };
-
+```

@@ -7,7 +7,7 @@ https://leetcode.cn/problems/3sum/description/
 # 当两个指针指向的数相加和大于目标值时，右指针左移
 # 当两个指针指向的数相加和小于目标值时，左指针右移
 
-
+```C
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -35,3 +35,4 @@ public:
 
     }
 };
+```

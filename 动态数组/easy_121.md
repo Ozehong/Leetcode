@@ -4,6 +4,7 @@ https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/
 
 
 //动态规划：dp[i]表示第i天卖出的最大利润
+```C
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -19,8 +20,10 @@ public:
         return dp[n - 1];
     }
 };
+```
 
 //优化空间复杂度：profit表示第i-1天卖出的最大利润
+```C
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -34,3 +37,4 @@ public:
         return profit;
     }
 };
+```

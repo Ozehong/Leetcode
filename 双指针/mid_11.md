@@ -7,6 +7,7 @@ https://leetcode.cn/problems/container-with-most-water/description/
 # 右指针大于左指针时，左指针右移
 # 右指针小于左指针时，右指针左移
 
+```C
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -24,3 +25,4 @@ public:
 
     }
 };
+```

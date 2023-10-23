@@ -6,6 +6,7 @@
 //时间复杂度：O(n^3)
 //空间复杂度：O(1)
 
+```C
 class Solution {
 public:
     bool Palcheck(string &s,int i,int j)
@@ -35,7 +36,7 @@ public:
         return s.substr(maxi,dp[maxi]+1);
     }
 };
-
+```
 //动态规划
 //时间复杂度：O(n^2)
 //空间复杂度：O(n^2)
@@ -43,7 +44,7 @@ public:
 //dp[i][j]=dp[i+1][j-1] && s[i]==s[j]
 //边界条件：j-i==2 || j-i==1 || j==i
 //注意：dp[i][j]的值依赖于dp[i+1][j-1]，所以i要从大到小遍历，j要从小到大遍历
-
+```C
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -71,10 +72,11 @@ public:
         return s.substr(left,maxi);//返回最长回文子串
     }
 };
-
+```
 //中心扩展法
 //时间复杂度：O(n^2)
 //空间复杂度：O(1)
+```C
 class Solution {
     // 将字符串s[left:right]向左、向右扩展，得到的回文串左端点和最长长度\
     // 返回值：pair<int,int>，first为左端点，second为最长长度
@@ -106,3 +108,4 @@ public:
         return s.substr(left, maxlen);
     }
 };
+```

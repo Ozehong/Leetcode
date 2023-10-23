@@ -2,6 +2,7 @@
 // 字符串相加
 
 //常规解法：双指针
+```
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -59,9 +60,10 @@ public:
         }
     }
 };
+```
+# 天才代码简化解法
 
-//天才代码简化解法
-
+```C
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -82,3 +84,4 @@ public:
         return s;
     }
 };
+```

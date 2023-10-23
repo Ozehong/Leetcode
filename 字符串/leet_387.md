@@ -1,6 +1,7 @@
 // https://leetcode.cn/problems/first-unique-character-in-a-string/description/
 
 // 思路：用一个数组记录每个字符出现的次数，然后再遍历一遍字符串，找到第一个出现次数为1的字符
+```C
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -19,11 +20,12 @@ public:
 
     }
 };
-
+```
 // 优化：用一个哈希表记录每个字符是否只出现一次，然后再遍历一遍字符串，找到第一个出现次数为1的字符
 // 为什么用哈希表而不用数组？因为数组需要开辟26个空间，而哈希表只需要开辟出现过的字符个数的空间
 // 使用了unordered_map，时间复杂度为O(n)，空间复杂度为O(n)
 // 使用了find函数，时间复杂度为O(1)
+```C
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -36,3 +38,4 @@ public:
         return -1;
     }
 };
+```

@@ -4,7 +4,8 @@ https://leetcode.cn/problems/multiply-strings/description/
 
 // 字符串相乘
 // 思路：模拟乘法，时间复杂度O(m*n)，空间复杂度O(m+n)
-// 注意：f[i+j+1]+=x*y; f[i-1]+=f[i]/10; f[i]=f[i]%10;
+// 注意： f[i+j+1]+=x*y; f[i-1]+=f[i]/10; f[i]=f[i]%10;
+```C
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -40,3 +41,4 @@ public:
         return ans;
     }
 };
+```

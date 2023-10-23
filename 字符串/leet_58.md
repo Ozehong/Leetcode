@@ -2,6 +2,8 @@
 
 
 // 思路：从后往前找到第一个空格，然后计算空格后面的单词长度
+
+```C
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -36,6 +38,8 @@ public:
     }
 };
 
+```
+```
 // 优化：从后往前找到第一个非空格字符，然后计算空格后面的单词长度
 class Solution {
 public:
@@ -49,3 +53,4 @@ public:
         return n;
     }
 };
+```

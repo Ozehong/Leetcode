@@ -1,5 +1,6 @@
 https://leetcode.cn/problems/valid-palindrome/submissions/475310229/
 
+```C
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -38,3 +39,4 @@ public:
 
     }
 };
+```

@@ -2,6 +2,7 @@ https://leetcode.cn/problems/linked-list-cycle/description/
 
 # 快慢指针
 
+```C
 /**
 
 * Definition for singly-linked list.
@@ -29,3 +30,4 @@ public:
   
     }
 };
+```

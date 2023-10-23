@@ -1,5 +1,6 @@
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/submissions/475293218/
 
+```C
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -13,3 +14,4 @@ public:
 
     }
 };
+```

@@ -3,6 +3,8 @@
 // 20. 有效的括
 // 栈,时间复杂度低，空间复杂度低
 // 栈常用函数，pop、push、top、empty
+
+```C
 class Solution {
 public:
 
@@ -34,4 +36,5 @@ public:
 
     }
 };
+```
 

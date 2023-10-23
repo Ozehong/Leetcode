@@ -1,5 +1,6 @@
 https://leetcode.cn/problems/move-zeroes/description/
 
+```C
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -15,3 +16,4 @@ public:
 
     }
 };
+```

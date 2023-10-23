@@ -2,6 +2,7 @@ https://leetcode.cn/problems/zigzag-conversion/description/
 
 
 // N字形变换
+```C
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -24,3 +25,4 @@ public:
         return str;
     }
 };
+```
